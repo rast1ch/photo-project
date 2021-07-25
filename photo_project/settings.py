@@ -31,6 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # Local
+    'admin_page.apps.AdminPageConfig',
+    
+    # Default
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -117,6 +121,7 @@ USE_L10N = True
 
 USE_TZ = True
 
+TELEBOT_TOCKEN = '1925855244:AAHTyine5tOuPJnLwn7CZGDs8j23VXJhYXI'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
